@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+:root {
+  --font-sequel-sans: "Sequel Sans", sans-serif;
+}
+
+body {
+  font-family: var(--font-sequel-sans);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
